@@ -1,0 +1,31 @@
+# Directory node_modules contiene le dipendenze del progetto
+node_modules/
+
+# File generati dall'applicazione Express.js
+*.log
+*.pid
+
+# File di configurazione locali (solitamente in formato .env)
+.env
+
+# File di registro dei cambiamenti, ad esempio i file generati da npm version
+CHANGELOG.md
+package-lock.json
+
+# File di configurazione di editor specifici (ad esempio, per Visual Studio Code)
+.vscode/
+
+# File temporanei
+*.swp
+*.swo
+
+# File e directory generati dall'ambiente di sviluppo
+.DS_Store
+Thumbs.db
+
+# Directory in cui vengono salvati i file generati dagli strumenti di sviluppo
+dist/
+coverage/
+
+# File di configurazione specifici dell'IDE (ad esempio, per WebStorm)
+.idea/
